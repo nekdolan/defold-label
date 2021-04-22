@@ -1,13 +1,9 @@
-# Welcome to Defold
+# Label rotate issue
 
-This project was created from the "empty" project template.
+Two game objects. Each game object has a sprite and two labels.
 
-The settings in ["game.project"](defold://open?path=/game.project) are all the default. A bootstrap empty ["main.collection"](defold://open?path=/main/main.collection) is included.
+The first object is rotated -30 on the Y axis.
 
-Check out [the documentation pages](https://defold.com/learn) for examples, tutorials, manuals and API docs.
+The second object is rotated +30 on the Y axis.
 
-If you run into trouble, help is available in [our forum](https://forum.defold.com).
-
-Happy Defolding!
-
----
+Only 3 out of the 4 labes are visible.
